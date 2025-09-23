@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building, Mail, Lock, Eye, EyeOff, User, BookOpen, MapPin, Phone } from 'lucide-react';
+import { Building, Mail, Lock, Eye, EyeOff, User, BookOpen } from 'lucide-react';
 import BaseRegister from './BaseRegister';
 import { useAuth } from '../../contexts/AuthContext';
 
@@ -13,9 +13,9 @@ export default function InstituteRegister() {
     password: '',
     confirmPassword: '',
     contactPerson: '',
+    registrationNumber: '',
     phone: '',
     address: '',
-    registrationNumber: '',
     agreeToTerms: false,
     role: 'institute'
   };
